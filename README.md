@@ -1,29 +1,16 @@
 #  yourVoteCounts
 
-This template should help get you started developing with Vue 3 in Vite.
+This is the application where admin can make [CRUD](https://www.freecodecamp.org/news/crud-operations-explained/) operations, and users see various polls listed and vote on them. 
 
-## Recommended IDE Setup
+### Permission Based Functionality
+Here Admin have certain functionalities which Users can't have, for example creating, editing, updating, deleting Polls.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Tech Stack used
 
-## Customize configuration
+- Vue (Options API, Composition API)
+- Vuex (State Management Library)
+- Vue Router (Vue Library, to navigate in between different pages)
+- Vuetify (Component based Framework)
+- Axios (For all the API call needs)
+- Vite (Bundle Installer)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
