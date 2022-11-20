@@ -4,7 +4,6 @@ import router from './router'
 import store from './store/store.js'
 import vuetify from './plugins/vuetify'
 
-import './assets/main.css'
 Vue.use(vuetify)
 
 new Vue({
